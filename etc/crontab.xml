@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="rccsv_cron_cron_job" instance="RCCsv\Cron\RCCsvCron" method="execute">
+            <config_path>
+                crontab/default/jobs/rccsv_cron_cron_job/schedule/cron_expr
+            </config_path>
+        </job>
+    </group>
+</config>
