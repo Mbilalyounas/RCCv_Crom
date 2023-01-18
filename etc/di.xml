@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregator" type="RCCsv\Cron\Model\Import\ErrorProcessing\ProcessingErrorAggregator" />
-    <preference for="Magento\ImportExport\Model\Import" type="RCCsv\Cron\Override\Model\Import" />
-</config>
